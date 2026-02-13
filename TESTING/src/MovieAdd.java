@@ -174,7 +174,7 @@ public class MovieAdd {
             ps.setInt(1, id);
 
             int rows = ps.executeUpdate();
-            System.out.println(rows + " record deleted");
+            System.out.println(rows + " RECORD DELETED");
 
             con.close();
         } catch (Exception e) {
@@ -184,3 +184,4 @@ public class MovieAdd {
     }
 
 }
+
